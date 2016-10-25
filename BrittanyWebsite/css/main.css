@@ -1,0 +1,562 @@
+/***************************************************************************************
+****************************************************************************************
+							GENERAL
+****************************************************************************************
+****************************************************************************************/
+
+body {
+	margin:0; 
+	background-image: url("../img/backgrd.png");
+	/*background: linear-gradient(to top, white 0%, #FF8F8F);*/
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif; /*Rockwell*/
+	overflow-x: hidden;
+	background-repeat: no-repeat;
+}
+
+#banner {
+	background: black;
+	width: 100%;
+	height: 120px;
+	border-bottom: 2px solid #F20A0A;
+	padding: 5px 0px;
+	position: fixed;
+    top: 0px;
+    z-index: 2;
+    box-shadow: 0 20px 20px -12px rgba(0,0,0,.8);
+}
+
+#pageName {
+	top: 164px;
+    position: relative;
+}
+
+.appar {
+	top: 200px;
+}
+
+/*************************************
+**************************************
+			navigation
+***************************************
+***************************************/
+nav {
+	text-align: center;
+    width: 100%;
+}
+
+.nav {
+	display: inline-block;
+	padding: 2px 20px;
+}
+
+.menu {
+	position: relative;
+	z-index: 6;
+}
+
+.menuList {
+	background-color: black;
+	position: absolute;
+	z-index: 4;
+	left: 0%;
+	top: -4px;
+	width: 92px;
+	height: 88px;
+	border-radius: 5px;
+	display: none;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0,.8);
+}
+
+#menuToggleBox {
+	position: absolute;
+	z-index: -1;
+	left: -39%;
+    top: -26px;
+	height: 140px;
+	width: 	160px;
+	margin: 0;
+}
+
+.menuList ul {
+	list-style-type: none;
+	position: relative;
+	right: 34px;
+	top: -10px;
+	width: 80px;
+}
+
+.activePage {
+	color: red;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+    display: block;
+}
+
+#shoppingCart {
+	border-radius: 100%;
+	display: inline-block;
+	position: relative;
+    left: 83%;
+    top: -40px;
+}
+
+#shoppingCart,
+#shoppingCart img {
+	width: 3.125em;
+	height: 3.125em;
+}
+
+#count {
+	color: #333;
+	z-index: 1;
+	font-weight: 700;
+	position: relative;
+    top: -44px;
+    left: 21px;
+    font-size: 30px;
+}
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+
+h1 {
+	color: #F20A0A;
+	text-align: center;
+	font-weight: 100;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+}
+
+p {
+	color: white;
+	padding: 10px;
+}
+
+
+
+.imgGal img {
+	height: 25.15625em;
+	width: 18.75em;
+	border: 2px solid #F20A0A;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0,0.8);
+}
+
+.imgGal img:hover {
+	box-shadow: 0 10px 20px -5px rgba(0,0,0,1);
+}
+
+.imgGal img {
+	border-radius: 15px;
+}
+
+
+
+
+/*************************************
+**************************************
+			HOW TO VIDEO PAGE
+***************************************
+***************************************/
+.videoGalley {
+	width: 100%;
+	align-items: center;
+}
+.video {
+	background-color: black;
+	text-align: center;
+	margin: 0 1.5% 75px 1.5%;
+	padding: 0;
+}
+#videoTitle{
+	color: white;
+}
+#itemMenu .picbag:hover,
+#itemMenu .pic:hover {
+	border: 2px white solid;
+}
+.activelink, a:hover {
+	color: red;
+}
+.selectedbag{
+	border: 2px black solid;
+}
+
+
+/*************************************
+**************************************
+			IMG GALLERY PICS
+***************************************
+***************************************/
+
+
+
+.appar{
+	width: 21.875em;
+	height: 34.375em;
+	position: relative;
+	display: inline-block;
+}
+
+#itemMenu {
+	text-align: center;
+	width: 82%;
+	margin: 0 auto;
+	min-width: 59.6em
+}	
+
+.cost, .dscrpt{
+	color: #F20A0A;
+	float: left;
+	padding: 0 0 0 8px;
+	position: relative;
+    left: 7%;
+	/*text-shadow: 0 15px 20px rgba(0,0,0,1);*/
+}
+
+.likeButtonTwo,
+.likeButtonTwo img,
+.likeButtonOne,
+.likeButtonOne img{
+    height: 3.125em;
+    width: 3.125em;
+    position: absolute;
+    top: 171px;
+    left: 131px;
+    border: none;
+}
+
+.likeButtonOne img {
+	opacity: 0.3;
+}
+
+.likeButtonTwo img {
+	display: none;
+}
+
+.pic, .picbag {
+	display: block;
+	margin: 0 auto;
+}
+
+/*************************************
+**************************************
+		IMG GALLERY DISPLAY PICS
+***************************************
+***************************************/
+
+
+.itemContainer {
+	height: 31.25em;
+	width: 39.375em;
+
+	border: 1px solid red;
+	padding: 10px;
+
+
+	position: relative;
+	z-index: 10;
+
+	margin: auto;
+	
+	align-content: center;
+	background-color: black;
+	color: white;
+
+	display: none;
+}
+
+.itemContainer img {
+	border-radius: 5px;
+	border-color: black;
+	height: 7.625em;
+	width: 7.3125em;
+}
+
+.itemDisplay {
+	height: 30.625em;
+	width: 39.6875em;
+	position: absolute;
+	z-index: 10;
+}
+
+.itemDisplay .img {
+	height: 25em;
+	width: 19.625em;
+	display: block;
+	float: left;
+	margin: 2px 2px 2px 15px;
+}
+
+.itemDisplay .img img {
+	height: 25.15625em;
+	width: 18.75em;
+}
+
+.itemDisplay .options { 
+	height: 25em;
+	width: 18.75em;
+	display: block;
+	float: left;
+	margin: 2px;
+	position: relative;
+	z-index: 5;
+}
+
+.itemDisplay .options div { 
+	height: 7.8125em;
+	width: 8.875em;
+	display: block;
+	float: left;
+	margin: 2px;
+	align-content: center;
+}
+
+.itemDisplay .clear {
+	height: 15%;
+	width: 84%;
+	clear: left;
+	margin: 2px;
+	padding: 2px;
+	margin: 0;
+}
+
+#exitTarget {
+	margin: auto;
+	height: 200%;
+	width: 200%;
+	position: fixed;
+	top: -2px;
+	z-index: 8;
+	display: none;
+	background-color: red;
+	opacity: 0.5;
+	text-align: center;
+}
+
+.likeButton img {
+	height: 3.125em;
+    width: 3.125em;
+    position: absolute;
+    top: 440px;
+    left: 570px;
+}
+
+.itemDisplay .broken {
+	opacity: 0.3;
+}
+
+
+
+/***************************************************************************************
+****************************************************************************************
+							Shopping Cart Page
+****************************************************************************************
+****************************************************************************************/
+
+input { 
+    text-align: center; 
+    font-size: 18px;
+}
+
+.operator {
+	width: 20px;
+	border: 1px solid #F20A0A;
+	padding: 5px;
+    top: 18px;
+    position: relative;
+    margin: 8px;
+}
+.name, .price, .quant {
+	color: white;
+	font-size: 22px;
+}
+
+.update {
+	width: 68px;
+	border: 1px solid #F20A0A;
+	padding: 5px;
+    top: 18px;
+    position: relative;
+    margin: 8px;
+    color: white;
+	font-size: 22px;
+}
+
+.increment, .plus, .minus {
+	width: 50px;
+}
+
+.quantity {
+	width: 60px;
+}
+
+.quantity, .increment {
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.quantityContainer {
+	border: 2px solid black;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+    top: 200px;
+}
+
+.shoppingCartCost {
+	vertical-align: center;
+}
+
+.plus, .minus{
+	height: 100%;
+}
+
+#shoppingCartBox{
+	width: 100%;
+	height: 100%;
+}
+
+#exitShoppingCartWindow{
+	width: 100%;
+	height: 900px;
+	top: 0;
+    position: fixed;
+    z-index: 40;
+    display: none;
+}
+
+#shoppingCartWindow {
+	height: 43.75em;
+	width: 59.6em;
+	margin: 78px auto;
+	border: 4px #F20A0A solid;
+	border-radius: 15px;
+	background-color: black; /*#fedcec;*/ /*#e8e3e6;*/
+	/*position: relative;
+	top: -1254px;*/
+	position: fixed;
+    top: 0px;
+    left: 2800px;
+	z-index: 50;
+	overflow-x: auto;
+}
+
+.buySection {
+	padding: 24px;
+	height: 380px;
+}
+
+.repeatHolder {
+	height: 300px;
+}
+
+.buySectionDescrpt {
+	width: 50%;
+	position: relative;
+	vertical-align: top;
+}
+
+.buySectionImg {
+	position: relative;
+    top: 4px;
+}
+
+.buySectionTotalPrice {
+	position: relative;
+    top: -202px;
+    color: white;
+}
+
+.buySectionImg,
+.buySectionDescrpt,
+.buySectionTotalPrice {
+	height: 17.5em;
+	display: inline-block;
+}
+
+.buySectionImg,
+.buySectionTotalPrice {
+	width: 24%;
+}
+
+.picCart {
+	height: 15.625em;
+	width: 12.5em;
+	border-radius: 15px;
+}
+
+button {
+	position: relative;
+	z-index: 100;
+	top: -5px;
+    left: 1166px;
+}
+
+.shoppingCartCost {
+	height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px red solid;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+    line-height: 6;
+}
+
+/*.nextItem {
+	display: none;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+
+
+
+/*/////////////////////////////
+		MEDIA QUERYS
+/////////////////////////////*/
+/*@media (max-width: 960px) {
+	#gallery #itemMenu div.appar.imgGal {
+		width: 50%;
+	}
+}*/

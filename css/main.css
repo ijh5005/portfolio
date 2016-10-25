@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+/*	background-color: #686868;
+	background-color: #3EBDFF;
+	background-color: #858A90;*/
+	background-color: #440044;
+	font-family: 'Trirong', serif;
+	font-family: 'Rubik', sans-serif;
+	overflow-x: hidden;
+	color: #0785BF;
+}
+
+#nav {
+	/*background-color: #362345;
+	background-color: #737373;*/
+	background-color: #53687E;
+	background-color: #1E55F2;
+	background-color: #EFD268;
+	background-color: #0785BF;
+	color: #B8A532;
+	color: #E8D018;
+	color: #FFFEFF;
+	color: #440044;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.nav {
+	display: inline-block;
+	padding: 56px 24px 0px 24px;
+}
+
+ #tab {
+    border-radius: 50px 50px 0px 0px;
+ 	background-color: #440044;
+ 	/*border-right: 2px solid #230023; 
+ 	border-left: 2px solid #230023;
+ 	border-top: 2px solid #230023;*/
+ 	float: left;
+ 	font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+    height: 48px;
+    width: 137px;
+
+    position: relative;
+    left: 120px;
+    top: -50px;
+    z-index: 2;
+ }
+
+ #tab_text {
+ 	color: #0785BF;
+ 	position: relative;
+ 	left: 2px;
+ 	top: 8px;
+ }
+
+#mypic {
+	border: 6px solid #0785BF;
+    width: 190px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: -74px;
+    left: -56px;
+    z-index: 3;
+}
+
+#active_page {
+	position: relative;
+}
+
+#website_container {
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+    top: 52px;
+	width: 90%;
+}
+
+.website_link_holder, 
+.game_link_holder {
+	height: 200px;
+	width: 200px;
+	border: 11px solid #0785BF;
+	border-style: double;
+	display: inline-block;
+    margin: 30px 15px 66px 15px;
+}
+
+.siteDisplay {
+	width: 200px;
+}
+
+.website_link_description h3,
+.game_link_description h3 {
+    position: relative;
+    top: -2px;
+}
+
+.website_link_description p,
+.game_link_description p {
+    position: relative;
+    top: -18px;
+}
+
+
+@media (max-width: 620px) {
+	#mypic {
+		display: none;
+	}
+}
+
+@media (min-width: 850px) {
+	#mypic {
+    width: 260px;
+    }
+}
+
+@media (min-width: 1823px) {
+	#mypic {
+		width: 400px;
+	}
+}
