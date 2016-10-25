@@ -119,7 +119,7 @@ var websiteLinks = {
 			var markup = "<div class='website_link_holder'>";
 			markup += "<div class='website_link'></div>";
 			markup += "<div class='website_link_description'>";
-			markup += "<a href='"+websiteLinks.websiteArray[i].link+"'><img class='siteDisplay' src="+websiteLinks.websiteArray[i].img+"><a/>";
+			markup += "<a href="+websiteLinks.websiteArray[i].link+"><img class='siteDisplay' src="+websiteLinks.websiteArray[i].img+"><a/>";
 			markup += "<h3>"+websiteLinks.websiteArray[i].name+"</h3>";
 			markup += "<p>"+websiteLinks.websiteArray[i].description+"<br>";
 			markup += "<em>Status</em>: "+websiteLinks.websiteArray[i].status+"</p>";
