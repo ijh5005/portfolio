@@ -65,7 +65,7 @@ var websiteLinks = {
 			description: "Fashion e-commerce",
 			status: "Work In Progress",
 			img: "img/SewAndSoLink.png",
-			link: "BrittanyWebsite/indextwo.html";
+			link: "BrittanyWebsite/indextwo.html"
 		},
 
 		{
